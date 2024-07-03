@@ -16,7 +16,10 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/'element={<View/>}></Route>
-        <Route path='/add'element={<Add/>}></Route>
+        <Route path='/add'element={<Add person={{name:'sudan',
+    email:'sudan@gmail.com',
+    password:'1234',
+    address:'tvm'}}/>}></Route>
       </Routes>
       
 

@@ -8,8 +8,8 @@ export const Navbar = () => {
       <AppBar position="static">
         <Toolbar>
           
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            FIRST REACT APP
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{fontSize:'28px'}}>
+            REACT REGISTER APP
           </Typography>
           <Link to={'/'}> <Button style={{color:'white'}}>View</Button></Link>
           <Link to={'/add'}> <Button style={{color:'white'}}>Add</Button></Link>
